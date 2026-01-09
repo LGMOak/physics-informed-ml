@@ -1,0 +1,45 @@
+Using cuda device
+ Target Nu: 0.003183
+Step 100: Loss 0.06105 | Nu 0.005795 | Err 82.07%
+Step 200: Loss 0.04758 | Nu 0.007873 | Err 147.34%
+Step 300: Loss 0.02715 | Nu 0.005657 | Err 77.73%
+Step 400: Loss 0.02400 | Nu 0.003876 | Err 21.78%
+Step 500: Loss 0.02102 | Nu 0.003237 | Err 1.70%
+Step 600: Loss 0.01781 | Nu 0.005453 | Err 71.30%
+Step 700: Loss 0.01503 | Nu 0.004739 | Err 48.89%
+Step 800: Loss 0.01321 | Nu 0.004780 | Err 50.17%
+Step 900: Loss 0.01157 | Nu 0.004603 | Err 44.60%
+Step 1000: Loss 0.01096 | Nu 0.004624 | Err 45.27%
+Step 1100: Loss 0.01030 | Nu 0.004556 | Err 43.13%
+Step 1200: Loss 0.00979 | Nu 0.004377 | Err 37.52%
+Step 1300: Loss 0.00928 | Nu 0.005173 | Err 62.51%
+Step 1400: Loss 0.00899 | Nu 0.005395 | Err 69.48%
+Step 1500: Loss 0.00829 | Nu 0.004614 | Err 44.96%
+Step 1600: Loss 0.00735 | Nu 0.004558 | Err 43.20%
+Step 1700: Loss 0.00679 | Nu 0.005376 | Err 68.89%
+Step 1800: Loss 0.00595 | Nu 0.004806 | Err 50.99%
+Step 1900: Loss 0.00513 | Nu 0.004851 | Err 52.40%
+Step 2000: Loss 0.00472 | Nu 0.005047 | Err 58.57%
+Step 2100: Loss 0.00398 | Nu 0.005118 | Err 60.80%
+Step 2200: Loss 0.00310 | Nu 0.004638 | Err 45.71%
+Step 2300: Loss 0.00264 | Nu 0.004700 | Err 47.64%
+Step 2400: Loss 0.00231 | Nu 0.004364 | Err 37.09%
+Step 2500: Loss 0.00202 | Nu 0.003715 | Err 16.72%
+Step 2600: Loss 0.00174 | Nu 0.003770 | Err 18.44%
+Step 2700: Loss 0.00152 | Nu 0.003280 | Err 3.03%
+Step 2800: Loss 0.00135 | Nu 0.003531 | Err 10.93%
+Step 2900: Loss 0.00125 | Nu 0.003645 | Err 14.53%
+Step 3000: Loss 0.00115 | Nu 0.003719 | Err 16.83%
+Step 3100: Loss 0.00102 | Nu 0.003560 | Err 11.84%
+Step 3200: Loss 0.00096 | Nu 0.003450 | Err 8.40%
+Step 3300: Loss 0.00091 | Nu 0.003370 | Err 5.87%
+Step 3400: Loss 0.00084 | Nu 0.003387 | Err 6.42%
+Step 3500: Loss 0.00077 | Nu 0.003285 | Err 3.20%
+Step 3600: Loss 0.00066 | Nu 0.003358 | Err 5.51%
+Step 3700: Loss 0.00062 | Nu 0.003336 | Err 4.80%
+Step 3800: Loss 0.00058 | Nu 0.003422 | Err 7.51%
+
+Final discovered nu: 0.003306
+True nu: 0.003183
+Final Error: 3.85%
+Saved convergence plot to inverse_convergence.png

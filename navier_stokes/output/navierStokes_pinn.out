@@ -1,0 +1,64 @@
+Loading training data...
+Stats saved: t_mean=9.82, x_std=2.04...
+Starting Training...
+Initial lambda1: 0.0
+Initial lambda2: 0.0
+Iteration 100: Loss 0.09288 | lambda_1 -0.0081 | lambda_2 0.00040
+Iteration 200: Loss 0.08949 | lambda_1 0.0617 | lambda_2 0.00143
+Iteration 300: Loss 0.08809 | lambda_1 0.0724 | lambda_2 0.00153
+Iteration 400: Loss 0.08762 | lambda_1 0.0474 | lambda_2 0.00063
+Iteration 500: Loss 0.08726 | lambda_1 0.0657 | lambda_2 0.00135
+Iteration 600: Loss 0.08704 | lambda_1 0.0596 | lambda_2 0.00126
+Iteration 700: Loss 0.08686 | lambda_1 0.0670 | lambda_2 0.00105
+Iteration 800: Loss 0.08671 | lambda_1 0.0643 | lambda_2 0.00140
+Iteration 900: Loss 0.08655 | lambda_1 0.0666 | lambda_2 0.00143
+Iteration 1000: Loss 0.08644 | lambda_1 0.0776 | lambda_2 0.00201
+Iteration 1100: Loss 0.08629 | lambda_1 0.0807 | lambda_2 0.00152
+Iteration 1200: Loss 0.08607 | lambda_1 0.0923 | lambda_2 0.00150
+Iteration 1300: Loss 0.08580 | lambda_1 0.0986 | lambda_2 0.00197
+Iteration 1400: Loss 0.08537 | lambda_1 0.1264 | lambda_2 0.00429
+Iteration 1500: Loss 0.08375 | lambda_1 0.2061 | lambda_2 0.00615
+Iteration 1600: Loss 0.08034 | lambda_1 0.4261 | lambda_2 0.01101
+Iteration 1700: Loss 0.06736 | lambda_1 0.6591 | lambda_2 0.01216
+Iteration 1800: Loss 0.03328 | lambda_1 0.8240 | lambda_2 0.01896
+Iteration 1900: Loss 0.02297 | lambda_1 0.8496 | lambda_2 0.01204
+Iteration 2000: Loss 0.01873 | lambda_1 0.8810 | lambda_2 0.01699
+Iteration 2100: Loss 0.01673 | lambda_1 0.8752 | lambda_2 0.01428
+Iteration 2200: Loss 0.01526 | lambda_1 0.8955 | lambda_2 0.01582
+Iteration 2300: Loss 0.01384 | lambda_1 0.8969 | lambda_2 0.01554
+Iteration 2400: Loss 0.01240 | lambda_1 0.9057 | lambda_2 0.01510
+Iteration 2500: Loss 0.01076 | lambda_1 0.9237 | lambda_2 0.01416
+Iteration 2600: Loss 0.00925 | lambda_1 0.9301 | lambda_2 0.01418
+Iteration 2700: Loss 0.00778 | lambda_1 0.9486 | lambda_2 0.01508
+Iteration 2800: Loss 0.00671 | lambda_1 0.9551 | lambda_2 0.01543
+Iteration 2900: Loss 0.00593 | lambda_1 0.9562 | lambda_2 0.01496
+Iteration 3000: Loss 0.00529 | lambda_1 0.9665 | lambda_2 0.01463
+Iteration 3100: Loss 0.00475 | lambda_1 0.9698 | lambda_2 0.01411
+Iteration 3200: Loss 0.00434 | lambda_1 0.9751 | lambda_2 0.01354
+Iteration 3300: Loss 0.00396 | lambda_1 0.9755 | lambda_2 0.01373
+Iteration 3400: Loss 0.00362 | lambda_1 0.9808 | lambda_2 0.01400
+Iteration 3500: Loss 0.00341 | lambda_1 0.9796 | lambda_2 0.01400
+Iteration 3600: Loss 0.00318 | lambda_1 0.9816 | lambda_2 0.01395
+Iteration 3700: Loss 0.00298 | lambda_1 0.9825 | lambda_2 0.01367
+Iteration 3800: Loss 0.00275 | lambda_1 0.9832 | lambda_2 0.01320
+Iteration 3900: Loss 0.00256 | lambda_1 0.9826 | lambda_2 0.01312
+Iteration 4000: Loss 0.00237 | lambda_1 0.9823 | lambda_2 0.01282
+Iteration 4100: Loss 0.00221 | lambda_1 0.9851 | lambda_2 0.01280
+Iteration 4200: Loss 0.00205 | lambda_1 0.9846 | lambda_2 0.01256
+Iteration 4300: Loss 0.00190 | lambda_1 0.9856 | lambda_2 0.01239
+Iteration 4400: Loss 0.00175 | lambda_1 0.9844 | lambda_2 0.01255
+Iteration 4500: Loss 0.00164 | lambda_1 0.9859 | lambda_2 0.01189
+Iteration 4600: Loss 0.00153 | lambda_1 0.9852 | lambda_2 0.01185
+Iteration 4700: Loss 0.00143 | lambda_1 0.9874 | lambda_2 0.01176
+Iteration 4800: Loss 0.00134 | lambda_1 0.9875 | lambda_2 0.01177
+Iteration 4900: Loss 0.00126 | lambda_1 0.9894 | lambda_2 0.01156
+Iteration 5000: Loss 0.00118 | lambda_1 0.9872 | lambda_2 0.01155
+Iteration 5100: Loss 0.00112 | lambda_1 0.9901 | lambda_2 0.01139
+
+Training Complete.
+Final lambda1 (Target 1.0): 0.99047
+Final lambda2 (Target 0.01): 0.01153
+Error lambda1: 0.95%
+Error lambda2: 15.34%
+Model saved to ns_inverse_model.pth
+Saved convergence plot.

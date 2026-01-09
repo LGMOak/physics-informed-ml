@@ -1,0 +1,12 @@
+Using cuda device
+Epoch 0: Loss_u = 0.1569, Loss_f = 0.0016, Total Loss = 0.1585
+Epoch 500: Loss_u = 0.0396, Loss_f = 0.0112, Total Loss = 0.0508
+Epoch 1000: Loss_u = 0.0254, Loss_f = 0.0078, Total Loss = 0.0332
+Epoch 1500: Loss_u = 0.0121, Loss_f = 0.0054, Total Loss = 0.0174
+Epoch 2000: Loss_u = 0.0078, Loss_f = 0.0046, Total Loss = 0.0124
+Epoch 2500: Loss_u = 0.0055, Loss_f = 0.0038, Total Loss = 0.0093
+Epoch 3000: Loss_u = 0.0041, Loss_f = 0.0034, Total Loss = 0.0075
+Epoch 3500: Loss_u = 0.0036, Loss_f = 0.0030, Total Loss = 0.0066
+Epoch 4000: Loss_u = 0.0030, Loss_f = 0.0049, Total Loss = 0.0079
+Epoch 4500: Loss_u = 0.0027, Loss_f = 0.0023, Total Loss = 0.0050
+Training Complete. Saving model...
