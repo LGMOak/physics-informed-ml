@@ -1,0 +1,52 @@
+import scipy.io
+import numpy as np
+
+data = scipy.io.loadmat('cylinder_wake.mat')
+
+U_star = data['U_star']
+P_star = data['p_star']
+t_star = data['t']
+X_star = data['X_star']
+
+N = X_star.shape[0]
+T = t_star.shape[0]
+
+# Flatten data do every row is an observation
+XX = np.tile(X_star[:,0:1], (1, T))
+YY = np.tile(X_star[:,1:2], (1, T))
+TT = np.tile(t_star, (N, 1)).T
+
+x = XX.flatten()[:, None]
+y = YY.flatten()[:, None]
+t = TT.flatten()[:, None]
+
+u = U_star[:,0,:].flatten()[:, None]
+v = U_star[:,1,:].flatten()[:, None]
+p = P_star.flatten()[:, None]
+
+# Add random Gaussian noise
+noise = 0.05
+
+u_noise = noise * np.std(u) * np.random.randn(u.shape[0], u.shape[1])
+v_noise = noise * np.std(v) * np.random.randn(v.shape[0], v.shape[1])
+
+u_data = u + u_noise
+v_data = v + v_noise
+
+print(f"Added {noise*100}% Gaussian noise to velocity fields.")
+
+# Training data creation
+idx = np.random.choice(N*T, 5000, replace=False)
+
+x_train = x[idx,:]
+y_train = y[idx,:]
+t_train = t[idx, :]
+u_train = u_data[idx,:]
+v_train = v_data[idx,:]
+p_train = p[idx,:]
+
+training_data = np.hstack((t_train, x_train, y_train, u_train, v_train, p_train))
+np.savetxt('cylinder_wake_train.csv', training_data, delimiter=',',
+           header='t,x,y,u,v,p', comments='')
+
+print(f"Saved {training_data.shape[0]} training points to cylinder_wake_train.csv")

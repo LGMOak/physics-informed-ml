@@ -1,0 +1,149 @@
+Loading training data...
+Stats saved: t_mean=9.96, x_std=2.03...
+Initial: lambda1=0.0000, lambda2=0.00000
+Iter    0: Loss 0.908237 | Data 0.908228 | Phys 0.000009 | lambda1 0.0005 | lambda2 -0.00099
+Iter  500: Loss 0.099211 | Data 0.099168 | Phys 0.000043 | lambda1 -0.0049 | lambda2 -0.00112
+Iter 1000: Loss 0.093279 | Data 0.093099 | Phys 0.000180 | lambda1 0.0520 | lambda2 0.00127
+Iter 1500: Loss 0.092523 | Data 0.092314 | Phys 0.000210 | lambda1 0.0604 | lambda2 0.00155
+Iter 2000: Loss 0.091514 | Data 0.091254 | Phys 0.000260 | lambda1 0.0659 | lambda2 0.00180
+Iter 2500: Loss 0.091213 | Data 0.090922 | Phys 0.000291 | lambda1 0.0680 | lambda2 0.00172
+Iter 3000: Loss 0.090970 | Data 0.090648 | Phys 0.000323 | lambda1 0.0684 | lambda2 0.00162
+Iter 3500: Loss 0.090750 | Data 0.090394 | Phys 0.000356 | lambda1 0.0714 | lambda2 0.00172
+Iter 4000: Loss 0.090172 | Data 0.089678 | Phys 0.000494 | lambda1 0.0909 | lambda2 0.00234
+Iter 4500: Loss 0.089589 | Data 0.088911 | Phys 0.000677 | lambda1 0.1487 | lambda2 0.00359
+Iter 4999: Loss 0.089355 | Data 0.088624 | Phys 0.000731 | lambda1 0.1794 | lambda2 0.00422
+
+After Adam: lambda1=0.1794, lambda2=0.00422
+Iter  6000: Loss 0.084447 | lambda1 0.35003 | lambda2 0.011269
+Iter  7000: Loss 0.026182 | lambda1 0.83132 | lambda2 0.011325
+Iter  8000: Loss 0.018396 | lambda1 0.87902 | lambda2 0.013438
+Iter  9000: Loss 0.016340 | lambda1 0.89256 | lambda2 0.014799
+Iter 10000: Loss 0.014745 | lambda1 0.89436 | lambda2 0.013788
+Iter 11000: Loss 0.012579 | lambda1 0.91942 | lambda2 0.013950
+Iter 12000: Loss 0.010366 | lambda1 0.93364 | lambda2 0.015351
+Iter 13000: Loss 0.007861 | lambda1 0.94454 | lambda2 0.014933
+Iter 14000: Loss 0.006206 | lambda1 0.95926 | lambda2 0.015956
+Iter 15000: Loss 0.004884 | lambda1 0.96792 | lambda2 0.016109
+Iter 16000: Loss 0.003494 | lambda1 0.98402 | lambda2 0.013743
+Iter 17000: Loss 0.002142 | lambda1 0.98654 | lambda2 0.011874
+Iter 18000: Loss 0.001382 | lambda1 0.99120 | lambda2 0.010757
+Iter 19000: Loss 0.001092 | lambda1 0.99315 | lambda2 0.011087
+Iter 20000: Loss 0.000908 | lambda1 0.99416 | lambda2 0.010897
+Iter 21000: Loss 0.000797 | lambda1 0.99507 | lambda2 0.010623
+Iter 22000: Loss 0.000723 | lambda1 0.99629 | lambda2 0.010616
+Iter 23000: Loss 0.000652 | lambda1 0.99697 | lambda2 0.010632
+Iter 24000: Loss 0.000607 | lambda1 0.99775 | lambda2 0.010478
+Iter 25000: Loss 0.000569 | lambda1 0.99821 | lambda2 0.010430
+Iter 26000: Loss 0.000538 | lambda1 0.99821 | lambda2 0.010303
+Iter 27000: Loss 0.000515 | lambda1 0.99869 | lambda2 0.010326
+Iter 28000: Loss 0.000496 | lambda1 0.99893 | lambda2 0.010331
+Iter 29000: Loss 0.000482 | lambda1 0.99895 | lambda2 0.010296
+Iter 30000: Loss 0.000470 | lambda1 0.99935 | lambda2 0.010315
+Iter 31000: Loss 0.000461 | lambda1 0.99965 | lambda2 0.010304
+Iter 32000: Loss 0.000453 | lambda1 1.00008 | lambda2 0.010280
+Iter 33000: Loss 0.000446 | lambda1 0.99989 | lambda2 0.010221
+Iter 34000: Loss 0.000440 | lambda1 1.00001 | lambda2 0.010224
+Iter 35000: Loss 0.000435 | lambda1 0.99976 | lambda2 0.010206
+Iter 36000: Loss 0.000432 | lambda1 0.99991 | lambda2 0.010179
+
+Discovered Parameters:
+  lambda1 = 0.999906 (target: 1.0, error: 0.01%)
+  lambda2 = 0.010179 (target: 0.01, error: 1.79%)
+
+Model saved to 'navier_stokes_balanced.pth'
+Initial: lambda1=0.0000, lambda2=0.00000
+Iter    0: Loss 8.956924 | Data 0.895692 | Phys 0.000001 | lambda1 -0.0000 | lambda2 -0.00097
+Iter  500: Loss 0.971311 | Data 0.097126 | Phys 0.000052 | lambda1 0.0060 | lambda2 -0.00001
+Iter 1000: Loss 0.932791 | Data 0.093265 | Phys 0.000136 | lambda1 0.0606 | lambda2 0.00147
+Iter 1500: Loss 0.924110 | Data 0.092395 | Phys 0.000164 | lambda1 0.0756 | lambda2 0.00198
+Iter 2000: Loss 0.919156 | Data 0.091896 | Phys 0.000195 | lambda1 0.0809 | lambda2 0.00208
+Iter 2500: Loss 0.915679 | Data 0.091545 | Phys 0.000231 | lambda1 0.0804 | lambda2 0.00196
+Iter 3000: Loss 0.912993 | Data 0.091273 | Phys 0.000266 | lambda1 0.0782 | lambda2 0.00186
+Iter 3500: Loss 0.910689 | Data 0.091039 | Phys 0.000300 | lambda1 0.0761 | lambda2 0.00185
+Iter 4000: Loss 0.910507 | Data 0.091019 | Phys 0.000313 | lambda1 0.0783 | lambda2 0.00208
+Iter 4500: Loss 0.907546 | Data 0.090720 | Phys 0.000349 | lambda1 0.0768 | lambda2 0.00210
+Iter 4999: Loss 0.909940 | Data 0.090958 | Phys 0.000361 | lambda1 0.0742 | lambda2 0.00205
+
+After Adam: lambda1=0.0742, lambda2=0.00205
+Iter  6000: Loss 0.135559 | lambda1 0.78577 | lambda2 0.011255
+Iter  7000: Loss 0.050639 | lambda1 0.87814 | lambda2 0.012194
+Iter  8000: Loss 0.036661 | lambda1 0.90622 | lambda2 0.012358
+Iter  9000: Loss 0.027819 | lambda1 0.90166 | lambda2 0.010662
+Iter 10000: Loss 0.021502 | lambda1 0.92847 | lambda2 0.011483
+Iter 11000: Loss 0.017445 | lambda1 0.94076 | lambda2 0.010682
+Iter 12000: Loss 0.014260 | lambda1 0.95583 | lambda2 0.010318
+Iter 13000: Loss 0.012091 | lambda1 0.96913 | lambda2 0.010511
+Iter 14000: Loss 0.010661 | lambda1 0.97493 | lambda2 0.010739
+Iter 15000: Loss 0.009814 | lambda1 0.97791 | lambda2 0.010709
+Iter 16000: Loss 0.009071 | lambda1 0.97980 | lambda2 0.010613
+Iter 17000: Loss 0.008413 | lambda1 0.98447 | lambda2 0.010562
+Iter 18000: Loss 0.007875 | lambda1 0.98627 | lambda2 0.010296
+Iter 19000: Loss 0.007477 | lambda1 0.98690 | lambda2 0.010469
+Iter 20000: Loss 0.007113 | lambda1 0.98499 | lambda2 0.010302
+Iter 21000: Loss 0.006788 | lambda1 0.98951 | lambda2 0.010323
+Iter 22000: Loss 0.006493 | lambda1 0.99035 | lambda2 0.010217
+Iter 23000: Loss 0.006224 | lambda1 0.99005 | lambda2 0.010341
+Iter 24000: Loss 0.005977 | lambda1 0.99110 | lambda2 0.010424
+Iter 25000: Loss 0.005776 | lambda1 0.99193 | lambda2 0.010479
+Iter 26000: Loss 0.005596 | lambda1 0.99114 | lambda2 0.010494
+Iter 27000: Loss 0.005425 | lambda1 0.99229 | lambda2 0.010422
+Iter 28000: Loss 0.005287 | lambda1 0.99280 | lambda2 0.010426
+Iter 29000: Loss 0.005287 | lambda1 0.99280 | lambda2 0.010426
+Iter 30000: Loss 0.005287 | lambda1 0.99280 | lambda2 0.010426
+
+Discovered Parameters:
+  lambda1 = 0.992803 (target: 1.0, error: 0.72%)
+  lambda2 = 0.010426 (target: 0.01, error: 4.26%)
+
+Model saved to 'navier_stokes_mid.pth'
+Initial: lambda1=0.0000, lambda2=0.00000
+Iter    0: Loss 90.138535 | Data 0.901385 | Phys 0.000003 | lambda1 0.0000 | lambda2 0.00098
+Iter  500: Loss 9.689530 | Data 0.096895 | Phys 0.000045 | lambda1 -0.0016 | lambda2 -0.00027
+Iter 1000: Loss 9.324404 | Data 0.093243 | Phys 0.000118 | lambda1 0.0876 | lambda2 0.00228
+Iter 1500: Loss 9.236860 | Data 0.092367 | Phys 0.000165 | lambda1 0.1129 | lambda2 0.00338
+Iter 2000: Loss 9.118738 | Data 0.091185 | Phys 0.000240 | lambda1 0.1148 | lambda2 0.00365
+Iter 2500: Loss 9.089502 | Data 0.090892 | Phys 0.000287 | lambda1 0.1165 | lambda2 0.00357
+Iter 3000: Loss 9.040173 | Data 0.090398 | Phys 0.000382 | lambda1 0.1111 | lambda2 0.00344
+Iter 3500: Loss 9.015985 | Data 0.090155 | Phys 0.000459 | lambda1 0.1079 | lambda2 0.00341
+Iter 4000: Loss 8.955426 | Data 0.089548 | Phys 0.000638 | lambda1 0.1083 | lambda2 0.00360
+Iter 4500: Loss 8.697436 | Data 0.086956 | Phys 0.001811 | lambda1 0.1534 | lambda2 0.00446
+Iter 4999: Loss 7.098278 | Data 0.070887 | Phys 0.009536 | lambda1 0.5831 | lambda2 0.00989
+
+After Adam: lambda1=0.5831, lambda2=0.00989
+Iter  6000: Loss 0.568676 | lambda1 0.79960 | lambda2 0.007759
+Iter  7000: Loss 0.352203 | lambda1 0.84017 | lambda2 0.009140
+Iter  8000: Loss 0.244592 | lambda1 0.84485 | lambda2 0.007629
+Iter  9000: Loss 0.178615 | lambda1 0.84675 | lambda2 0.007533
+Iter 10000: Loss 0.133123 | lambda1 0.86551 | lambda2 0.009027
+Iter 11000: Loss 0.103991 | lambda1 0.87909 | lambda2 0.010317
+Iter 12000: Loss 0.086353 | lambda1 0.88096 | lambda2 0.008675
+Iter 13000: Loss 0.077091 | lambda1 0.89352 | lambda2 0.009573
+Iter 14000: Loss 0.070197 | lambda1 0.90113 | lambda2 0.009725
+Iter 15000: Loss 0.064105 | lambda1 0.90881 | lambda2 0.010446
+Iter 16000: Loss 0.059083 | lambda1 0.92659 | lambda2 0.009335
+Iter 17000: Loss 0.054836 | lambda1 0.92930 | lambda2 0.008917
+Iter 18000: Loss 0.051389 | lambda1 0.93981 | lambda2 0.008416
+Iter 19000: Loss 0.048483 | lambda1 0.95385 | lambda2 0.008893
+Iter 20000: Loss 0.046093 | lambda1 0.96424 | lambda2 0.009472
+Iter 21000: Loss 0.044123 | lambda1 0.97495 | lambda2 0.009485
+Iter 22000: Loss 0.042753 | lambda1 0.97803 | lambda2 0.010157
+Iter 23000: Loss 0.041635 | lambda1 0.98155 | lambda2 0.010259
+Iter 24000: Loss 0.040830 | lambda1 0.98273 | lambda2 0.009874
+Iter 25000: Loss 0.040115 | lambda1 0.98540 | lambda2 0.009905
+Iter 26000: Loss 0.039503 | lambda1 0.98618 | lambda2 0.010071
+Iter 27000: Loss 0.038925 | lambda1 0.98843 | lambda2 0.010027
+Iter 28000: Loss 0.038434 | lambda1 0.98768 | lambda2 0.010217
+Iter 29000: Loss 0.038000 | lambda1 0.98856 | lambda2 0.010143
+Iter 30000: Loss 0.037617 | lambda1 0.99169 | lambda2 0.010138
+Iter 31000: Loss 0.037277 | lambda1 0.98943 | lambda2 0.010378
+Iter 32000: Loss 0.036995 | lambda1 0.99114 | lambda2 0.010211
+Iter 33000: Loss 0.036919 | lambda1 0.99143 | lambda2 0.010148
+
+Discovered Parameters:
+  lambda1 = 0.991435 (target: 1.0, error: 0.86%)
+  lambda2 = 0.010148 (target: 0.01, error: 1.48%)
+
+Model saved to 'navier_stokes_strong.pth'
+
+Saved comparison plot to 'parameter_comparison.png'
+

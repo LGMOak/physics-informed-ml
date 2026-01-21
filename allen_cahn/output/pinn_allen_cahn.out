@@ -1,0 +1,57 @@
+
+--- Training BASELINE Model ---
+Epoch 0: Loss 10.87647 | Phys 0.84147 | IC 0.10035 | LR 1.0e-03
+Epoch 100: Loss 1.05592 | Phys 1.01999 | IC 0.00035 | LR 9.5e-04
+Epoch 200: Loss 1.02614 | Phys 0.93999 | IC 0.00086 | LR 9.0e-04
+Epoch 300: Loss 0.97350 | Phys 0.94334 | IC 0.00030 | LR 8.6e-04
+Epoch 400: Loss 1.06170 | Phys 1.01448 | IC 0.00046 | LR 8.1e-04
+Epoch 500: Loss 0.90226 | Phys 0.85749 | IC 0.00044 | LR 7.7e-04
+Epoch 600: Loss 1.05795 | Phys 1.00202 | IC 0.00055 | LR 7.4e-04
+Epoch 700: Loss 0.94681 | Phys 0.90629 | IC 0.00040 | LR 7.0e-04
+Epoch 800: Loss 0.01340 | Phys 0.01223 | IC 0.00001 | LR 6.6e-04
+Epoch 900: Loss 0.01079 | Phys 0.00920 | IC 0.00002 | LR 6.3e-04
+Epoch 1000: Loss 0.00892 | Phys 0.00726 | IC 0.00002 | LR 6.0e-04
+Epoch 1100: Loss 0.00906 | Phys 0.00752 | IC 0.00002 | LR 5.7e-04
+Epoch 1200: Loss 0.00702 | Phys 0.00594 | IC 0.00001 | LR 5.4e-04
+Epoch 1300: Loss 0.00690 | Phys 0.00643 | IC 0.00000 | LR 5.1e-04
+Epoch 1400: Loss 0.00494 | Phys 0.00359 | IC 0.00001 | LR 4.9e-04
+Epoch 1500: Loss 0.00530 | Phys 0.00479 | IC 0.00001 | LR 4.6e-04
+Epoch 1600: Loss 0.00546 | Phys 0.00459 | IC 0.00001 | LR 4.4e-04
+Epoch 1700: Loss 0.00514 | Phys 0.00441 | IC 0.00001 | LR 4.2e-04
+Epoch 1800: Loss 0.00426 | Phys 0.00376 | IC 0.00000 | LR 4.0e-04
+Epoch 1900: Loss 0.00565 | Phys 0.00523 | IC 0.00000 | LR 3.8e-04
+
+--- Starting L-BFGS ---
+Final L-BFGS Loss: 0.002240
+Time: 3395.0s
+Final PDE Residual: 0.005233
+
+--- Training IMPROVED Model ---
+Epoch 0: Loss 4.71906 | Phys 3.16801 | IC 0.01469 | LR 1.0e-03
+Epoch 100: Loss 0.03248 | Phys 0.02346 | IC 0.00009 | LR 9.5e-04
+Epoch 200: Loss 0.02353 | Phys 0.01582 | IC 0.00008 | LR 9.0e-04
+Epoch 300: Loss 0.01093 | Phys 0.00820 | IC 0.00003 | LR 8.6e-04
+Epoch 400: Loss 0.00850 | Phys 0.00704 | IC 0.00001 | LR 8.1e-04
+Epoch 500: Loss 0.00667 | Phys 0.00589 | IC 0.00001 | LR 7.7e-04
+Epoch 600: Loss 0.00676 | Phys 0.00619 | IC 0.00001 | LR 7.4e-04
+Epoch 700: Loss 0.00552 | Phys 0.00491 | IC 0.00001 | LR 7.0e-04
+Epoch 800: Loss 0.00698 | Phys 0.00564 | IC 0.00001 | LR 6.6e-04
+Epoch 900: Loss 0.00539 | Phys 0.00429 | IC 0.00001 | LR 6.3e-04
+Epoch 1000: Loss 0.00574 | Phys 0.00436 | IC 0.00001 | LR 6.0e-04
+Epoch 1100: Loss 0.00692 | Phys 0.00584 | IC 0.00001 | LR 5.7e-04
+Epoch 1200: Loss 0.00641 | Phys 0.00521 | IC 0.00001 | LR 5.4e-04
+Epoch 1300: Loss 0.00522 | Phys 0.00430 | IC 0.00001 | LR 5.1e-04
+Epoch 1400: Loss 0.00226 | Phys 0.00180 | IC 0.00000 | LR 4.9e-04
+Epoch 1500: Loss 0.00080 | Phys 0.00068 | IC 0.00000 | LR 4.6e-04
+Epoch 1600: Loss 0.00107 | Phys 0.00073 | IC 0.00000 | LR 4.4e-04
+Epoch 1700: Loss 0.00018 | Phys 0.00015 | IC 0.00000 | LR 4.2e-04
+Epoch 1800: Loss 0.00053 | Phys 0.00039 | IC 0.00000 | LR 4.0e-04
+Epoch 1900: Loss 0.00029 | Phys 0.00023 | IC 0.00000 | LR 3.8e-04
+
+--- Starting L-BFGS ---
+Final L-BFGS Loss: 0.000031
+Time: 3498.5s
+Final PDE Residual: 0.000227
+
+Models saved successfully.
+
