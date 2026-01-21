@@ -79,7 +79,7 @@ def physics(model, t, x, y, t_std, x_std, y_std):
 
     return u, v, p, f_u, f_v
 
-def train(adam_iters=5000, lbfgs_iters=10000, w_data=1.0, w_physics=1.0):
+def load_data():
     print("Loading training data...")
     # Load data
     try:
@@ -108,6 +108,11 @@ def train(adam_iters=5000, lbfgs_iters=10000, w_data=1.0, w_physics=1.0):
     x_norm = (x_raw - x_mean) / x_std
     y_norm = (y_raw - y_mean) / y_std
 
+    return t_norm, x_norm, y_norm, u_raw, v_raw, t_std, x_std, y_std
+
+
+def train(t_norm, x_norm, y_norm, u_raw, v_raw, t_std, x_std, y_std,
+          adam_iters=5000, lbfgs_iters=10000, w_data=1.0, w_physics=1.0, save_name="navier_stokes.pth"):
     t_train = torch.tensor(t_norm[:, None], dtype=torch.float32).to(device)
     x_train = torch.tensor(x_norm[:, None], dtype=torch.float32).to(device)
     y_train = torch.tensor(y_norm[:, None], dtype=torch.float32).to(device)
@@ -226,9 +231,9 @@ def train(adam_iters=5000, lbfgs_iters=10000, w_data=1.0, w_physics=1.0):
         'lambda1': final_lambda1,
         'lambda2': final_lambda2,
         'history': history
-    }, 'navier_stokes.pth')
+    }, save_name)
 
-    print("\nModel saved to 'navier_stokes.pth'")
+    print(f"\nModel saved to '{save_name}'")
 
     return model, history
 
@@ -285,20 +290,23 @@ def plot_comparison(results):
 
 
 if __name__ == "__main__":
+    t_norm, x_norm, y_norm, u_raw, v_raw, t_std, x_std, y_std = load_data()
     configs = [
-        (1.0, 1.0, "Balanced (1:1)"),
-        (10.0, 1.0, "Data Weighted (10:1)"),
-        (100.0, 1.0, "Strong Data (100:1)"),
+        (1.0, 1.0, "Balanced (1:1)", "navier_stokes_balanced.pth"),
+        (10.0, 1.0, "Data Weighted (10:1)", "navier_stokes_mid.pth"),
+        (100.0, 1.0, "Strong Data (100:1)", "navier_stokes_strong.pth"),
     ]
 
     # Dictionary to store the history of each run
     all_results = {}
 
-    for w_data, w_physics, desc in configs:
+    for w_data, w_physics, desc, filename in configs:
         # Train the model
         model, history = train(
+            t_norm, x_norm, y_norm, u_raw, v_raw, t_std, x_std, y_std,
             w_data=w_data,
-            w_physics=w_physics
+            w_physics=w_physics,
+            save_name=filename
         )
 
         # Store results
